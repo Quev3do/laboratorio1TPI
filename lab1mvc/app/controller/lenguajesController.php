@@ -2,10 +2,10 @@
 
 namespace app\controller;
 
-class HomeController{
+class lenguajesController{
 
     public function index(){
-        return $this->view('HomeView');
+        return $this->view('lenguajesView');
     }
 
     public function view($vista){
@@ -20,7 +20,7 @@ class HomeController{
         else{
             echo "vista no encotrada ../app/views/$vista.php";
         }
-        return "hola desde la pagina Home";
+        return "lenguajes";
     }
 }
 ?>
