@@ -12,7 +12,7 @@ Route::get("/inicio/:flag", function($flag){
     return ["title"=>"ejemplo"];
 });
 
-Route::get("/Home", [HomeController::class,"index"]);
+Route::get("/home", [HomeController::class,"index"]);
 
 Route::dispatch();
 
