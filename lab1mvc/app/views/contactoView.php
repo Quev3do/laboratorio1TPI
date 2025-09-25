@@ -6,8 +6,10 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>No sirve</h1>
     <form action="" method="post">
-        
+        <label for="Correo"></label>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>

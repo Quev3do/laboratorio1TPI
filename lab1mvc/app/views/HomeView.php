@@ -10,6 +10,7 @@
     <ul>
         <li><a href="inicio">inicio</a></li>
         <li><a href="lenguajes">lenguajes</a></li>
+        <li><a href="contacto">contacto</a></li>
     </ul>
 </body>
 </html>

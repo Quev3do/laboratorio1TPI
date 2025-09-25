@@ -5,6 +5,7 @@ use app\controller;
 use app\controller\HomeController;
 use app\controller\InicioController;
 use app\controller\lenguajesController;
+use app\controller\contactoController;
 
 Route::get("/", function(){
     echo "Waos";
@@ -17,7 +18,7 @@ Route::get("/inicio/:flag", function($flag){
 Route::get("/home", [HomeController::class, "index"]);
 Route::get("/inicio", [InicioController::class, "index"]);
 Route::get("/lenguajes", [lenguajesController::class, "index"]);
-Route::get());
+Route::get("/contacto", [contactoController::class, "index"]);
 
 Route::dispatch();
 
