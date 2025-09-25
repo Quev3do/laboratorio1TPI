@@ -9,10 +9,10 @@ Route::get("/", function(){
 });
 
 Route::get("/inicio/:flag", function($flag){
-    return ["title"=>"ejemplo"];
+    return ["title"=>"waos"];
 });
 
-Route::get("/home", [HomeController::class,"index"]);
+Route::get("/home", [HomeController::class, "index"]);
 
 Route::dispatch();
 

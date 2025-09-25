@@ -4,14 +4,12 @@ namespace app\controllers;
 class HomeController{
 
     public function index(){
-        return $this->view('HomeView',[
-            "title"=>"Home", 
-            "mensaje"=>"kb2"]);
+        return $this->view('HomeView');
     }
 
-    public function view($vista, $data=[]){
+    public function view($vista){
         //require_once("../app/views/HomeView.php");
-        extract($data);
+        //extract($data);
         if(file_exists("../app/views/$vista.php")){
             ob_start();
             include "../app/views/$vista.php";
